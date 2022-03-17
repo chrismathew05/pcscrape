@@ -51,7 +51,6 @@ def init_driver() -> object:
     options.add_argument("--log-level=OFF")
     options.add_argument("--disable-blink-features=AutomationControlled")
 
-    # options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1280x1696")

@@ -12,4 +12,4 @@ if not exist venv\ (
     echo Environment already set up.
 )
 
-python test.py
+python main.py
